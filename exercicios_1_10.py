@@ -4,3 +4,5 @@ nome:str= "Heitor"
 idade:int = 18
 altura:float = 1.75
 
+
+#Adicionando variaveis 
