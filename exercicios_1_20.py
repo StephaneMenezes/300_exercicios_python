@@ -132,3 +132,5 @@ def verificar_se_menor_igual(num1:int, num2:int)-> bool:
     print(num1 <= num2)
 
 verificar_se_menor_igual(num1, num2)
+
+
