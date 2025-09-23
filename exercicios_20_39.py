@@ -58,7 +58,7 @@ else:
 
 
 
-# Crie duas variaveis num1 e num2, com valores numericos digitiados pelo usuario. E caso o valor de num1 seja maior ou igual ao valor de num2, exiba a mensagem: "O valor de num1 é maior ou igual ao valor de num2". Caso contrario, exiba a mensagem: "O valor de num1 é menor que o valor de num2".
+#24 Crie duas variaveis num1 e num2, com valores numericos digitiados pelo usuario. E caso o valor de num1 seja maior ou igual ao valor de num2, exiba a mensagem: "O valor de num1 é maior ou igual ao valor de num2". Caso contrario, exiba a mensagem: "O valor de num1 é menor que o valor de num2".
 
 num1:int = int(input("Digite um valor numerico para num1: "))
 num2:int = int(input("Digite um valor numerico para num2: "))
@@ -71,5 +71,21 @@ else:
     print(f"O valor de num1 é menor que o valor de num2")
 
 
+#25 Peça para que o usuário digite um numero em seguida exiba em tela uma mensagem dizendo se o tal numero é par ou impar.
 
+num: int = int(input("Digite um número: "))
+
+if num % 2 == 0:
+    print(f"O número {num} é par.") 
+else:
+    print(f"O número {num} é impar.")
+
+#26 
+
+var_1 = 0
+
+while var_1 < 10: 
+    print((var_1))
+    var_1 += 1 
+    
 
